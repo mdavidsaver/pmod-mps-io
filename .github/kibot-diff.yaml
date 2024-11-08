@@ -19,6 +19,10 @@ outputs:
   - name: Info
     type: info
 
+  - name: 'print_sch'
+    type: pdf_sch_print
+    dir: sch
+
   - name: Diff Schematic
     type: diff
     dir: sch
